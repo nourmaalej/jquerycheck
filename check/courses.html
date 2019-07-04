@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>formulaire</title>
+     <link rel="icon" href="photos/logo.jpg"> 
+        <link rel="stylesheet" href="style1.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+     
+        
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+<body>
+
+    <header class="nav-style" id="nav-style" function="scrollFunction()"> 
+
+        <ol> 
+
+            <li><img id="ayhaja" src="logonour.png" height="100px" width="75px" ></li> 
+                 <li> <a href="home.html" id="amin" > home </a></li> 
+                 <li><a href="courses.html"id="amin"> courses </a> </li> 
+                 <li><a href="index.html"id="amin"> contact </a></li>
+         
+        </ol>
+    
+    </header>
+
+    <img id="lolo" src="photos/image1.png"><br>
+<img id="lolo" src="photos/image2.jpeg"><br>
+<img id="lolo" src="photos/image3.png"><br>
+
+    <form>
+	<header> <b> courses </b>
+	         <h1> feedback </h1>
+    </header>
+<div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+<div class="mahdi" id="i1">
+
+   <center>
+<a href="#ex1" rel="modal:open"> <button  type="button" >View More </button></a> 
+ 
+</div>
+</center>
+
+<div class="mahdi" id="i2">
+   <a href="#ex1" rel="modal:open"><center><button  type="button" >View More </button></a>
+ 
+</center>
+
+</div>
+<div id="hide">
+<div class="mahdi" id="i3">
+   <center>
+  <a href="#ex1" rel="modal:open"><button  type="button" >View More </button></a>
+ 
+</center>
+
+</div>
+<div class="mahdi" id="i4">
+   <center>
+  <a href="#ex1" rel="modal:open"><button  type="button" >View More </button></a>
+ 
+</center>
+
+</div>
+<div class="mahdi" id="i5">
+   <center>
+  <a href="#ex1" rel="modal:open"><button  type="button">View More </button></a>
+ 
+</center>
+
+</div>
+<div class="mahdi"id="i6">
+   <center>
+  <a href="#ex1" rel="modal:open"><button  type="button" >View More </button></a>
+ 
+</center>
+
+</div>
+
+</div>
+<button type="button" id="youssef">View More </button><br>
+
+
+
+
+    <button onclick="bold1()" type="button" class="btn">bold </button>
+    <button onclick="italic1()" type="button" class="btn">italic </button>
+    <button onclick="line1()" class="btn" type="button">line</button>
+
+      <select id="sz" onclick="drop1()"> 
+     	<option  value="2px"> 2px </option>
+     	<option  value="6px">6px </option>
+     	<option  value="14px">14px </option>
+     	<option  value="17px"> 17px </option>
+     </select>
+ 
+
+     <select id="lz" onclick="drop2()" >
+     	<option value="arial"> arial </option>
+     	<option value="comic sans ms">comic sans ms </option>
+     </select>
+     <br>
+     <div>
+<textarea rows="4" cols="50" id="text"></textarea>
+    </div> 
+ </form>
+</div>
+</body>
+<script src="main.js">
+</script>
+
+</html>
+     
